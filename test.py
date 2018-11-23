@@ -20,5 +20,5 @@ for results in cur:
          print("This is a other USER: ", results[1])
 cur.close()
 
-
+#made a change
 conn.close()
