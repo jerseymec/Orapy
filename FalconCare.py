@@ -36,7 +36,7 @@ def add_ClaimantName():
     outfile.close()
     print(:extra comma added")
 
-#read the input file
+##read the input file
 #loop through for each row and query external database to create a new index file
 
 def readfileCreatenewfile(filenew, thepath, pathname):
