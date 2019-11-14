@@ -57,7 +57,9 @@ for string in commands:
       e = 0
       i = 0
 # print(string.split())
-      comm, *arg = string.split()
+      s = string.split()
+      comm = s[0]
+      args = s[1:]
       if (len(arg) > 1):
          (i, e) = arg
       else:
